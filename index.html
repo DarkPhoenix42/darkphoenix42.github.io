@@ -33,7 +33,7 @@
     </header>
 
     <main>
-        <section id="intro">
+        <section id="intro" class="container">
             <div id="empty-space">
             </div>
 
@@ -41,15 +41,15 @@
                 <h1 id="intro-text">Hi, I'm <span id="name">Kronos</span>.</h1>
             </div>
 
-            <div id=" role-container">
-                <h1>Developer | Competitive Programmer | Hacker</h1>
+            <div id="role-container" class="restrict-width">
+                <h1>Developer, Competitive Programmer, Hacker.</h1>
             </div>
 
         </section>
 
-        <section id="about">
-            <h2 class="section-title">About</h2>
-            <div class="container" id="about-text">
+        <section id="about" class="container">
+            <h2 class="section-title restrict-width">About</h2>
+            <div class="container restrict-width" id="about-text">
                 <p>I'm Praneeth Sarode, a freshman at IIT Roorkee studying Computer Science and Engineering.
                     My hobbies include reading fiction, listening to music and watching webseries.
                     I'm a self taught programmer and am passionate about learning new things and solving problems.
@@ -59,16 +59,13 @@
         </section>
 
         <section id="skills">
-            <h2 class="section-title">Skills</h2>
+            <h2 class="section-title restrict-width">Skills</h2>
             <div id="skills-container">
                 <div class="skill" id="python">
                     <img src="assets/img/icons/python.png" class="skill-icon" alt="python">
                 </div>
                 <div class="skill" id="cpp">
                     <img src="assets/img/icons/cpp.png" class="skill-icon" alt="cpp">
-                </div>
-                <div class="skill" id="SDL2">
-                    <img src="assets/img/icons/sdl.png" class="skill-icon" alt="sdl2">
                 </div>
                 <div class="skill" id="c">
                     <img src="assets/img/icons/c.png" class="skill-icon" alt="c">
@@ -83,12 +80,15 @@
                     <img src="assets/img/icons/css.png" class="skill-icon" alt="css">
                 </div>
             </div>
-            <h4>Looking forward to adding a few more..</h4>
+
+            <div class="restrict-width">
+                <h4>Looking forward to adding a few more..</h4>
+            </div>
         </section>
 
         <section id="projects">
-            <h2 class="section-title">Projects</h2>
-            <div id="project-container">
+            <h2 class="section-title restrict-width">Projects</h2>
+            <div id="project-container" class="restrict-width">
                 <div class="project-card">
                     <h3>EvoCamp</h3>
                     <p>A website made with Django that provides information about all the events happening in campus.
@@ -124,12 +124,12 @@
             </div>
         </section>
         <section id="contact">
-            <h2 class="section-title">Contact me</h2>
-            <div id="contact-me-text">
+            <h2 class="section-title restrict-width">Contact me</h2>
+            <div id="contact-me-text" class="container restrict-width">
                 <p>Please feel free to reach out to me. I'm looking forward to
                     collaborating on awesome projects and learning!</p>
             </div>
-            <div id="links">
+            <div id="links" class="container">
                 <div class="icon" id="mail">
                     <a href="mailto:praneethsarode@gmail.com">
                         <img src="assets/img/icons/gmail.png" class="link-icon" alt="mail">
@@ -157,7 +157,7 @@
         </section>
 
     </main>
-    <footer>
+    <footer class="container">
         <h6>Made with&nbsp;</h6>
         <span id="heart"> ♥ </span>
         <h6>&nbsp;by Kr0n0s.</h6>
