@@ -165,6 +165,12 @@ li {
     font-size: 2rem;
 }
 
+@media screen and (max-width: 1500px) {
+    #role-container {
+        font-size: 2.25vw;
+    }
+}
+
 #about {
     flex-direction: column;
     margin-top: 5rem;
@@ -218,6 +224,7 @@ li {
 
 .project-card:hover {
     transform: scale(1.0625);
+    cursor: pointer;
 }
 
 #links {
