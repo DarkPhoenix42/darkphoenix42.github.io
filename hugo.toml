@@ -1,0 +1,51 @@
+baseurl = "https://darkphoenix42.github.io"
+languageCode = "en-us"
+theme = "re-terminal"
+pagination.pagerSize = 5
+
+[params]
+    contentTypeName = "posts"
+    themeColor = "blue"
+    showMenuItems = 3
+    showLanguageSelector = false
+    fullWidthTheme = false
+    centerTheme = true
+    autoCover = true
+    showLastUpdated = false
+    favicon = "favicon.ico"
+    readingTime = true
+    Toc = true
+    TocTitle = "Check out my stuff!"
+
+[languages]
+    [languages.en.params]
+        languageName = "English"
+        title = "ph03n1x's Blog"
+        subtitle = "A blog about programming, security and other stuff"
+        owner = "Praneeth Sarode"
+        keywords = "Developer, Security, Programming, Blog"
+        copyright = ""
+        menuMore = "Show more"
+        readMore = "Read more"
+        readOtherPosts = "Read other posts"
+        newerPosts = "Newer posts"
+        olderPosts = "Older posts"
+        missingContentMessage = "Uh-Oh! Page not found..."
+        missingBackButtonLabel = "Back to home page"
+        minuteReadingTime = "min read"
+        words = "words"
+
+        [languages.en.params.logo]
+            logoText = "ph03n1x"
+            logoHomeLink = "/"
+
+    [languages.en.menu]
+        [[languages.en.menu.main]]
+            identifier = "about"
+            name = "About"
+            url = "/about-me"
+
+        [[languages.en.menu.main]]
+            identifier = "projects"
+            name = "Projects"
+            url = "/projects"
