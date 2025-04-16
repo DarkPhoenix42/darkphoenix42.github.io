@@ -49,3 +49,8 @@ pagination.pagerSize = 5
             identifier = "projects"
             name = "Projects"
             url = "/projects"
+
+        [[languages.en.menu.main]]
+            identifier = "resume"
+            name = "Resume"
+            url = "/resume"
