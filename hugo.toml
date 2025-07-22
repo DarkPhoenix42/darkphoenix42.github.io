@@ -7,7 +7,7 @@ title = "ph03n1x's blog"
 [params]
 contentTypeName = "posts"
 themeColor = "blue"
-showMenuItems = 2
+showMenuItems = 3
 showLanguageSelector = false
 fullWidthTheme = false
 centerTheme = true
@@ -48,3 +48,8 @@ url = "/about-me"
 identifier = "projects"
 name = "Projects"
 url = "/projects"
+
+[[languages.en.menu.main]]
+identifier = "resume"
+name = "Resume"
+url = "/resume"
