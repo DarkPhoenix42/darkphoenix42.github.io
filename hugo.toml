@@ -53,3 +53,8 @@ url = "/projects"
 identifier = "resume"
 name = "Resume"
 url = "/resume"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
