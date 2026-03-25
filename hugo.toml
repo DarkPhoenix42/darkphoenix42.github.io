@@ -45,16 +45,11 @@ name = "About"
 url = "/about-me"
 
 [[languages.en.menu.main]]
-identifier = "projects"
-name = "Projects"
-url = "/projects"
-
-[[languages.en.menu.main]]
 identifier = "resume"
 name = "Resume"
 url = "/resume"
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
